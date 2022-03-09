@@ -1,0 +1,819 @@
+{
+  "catalog": [
+    {
+      "type": "group",
+      "name": "Pacific Data Hub Catalogue",
+      "members": [
+        {
+          "type": "group",
+          "name": "Pacific Island Countries and Territories",
+          "members": [
+            {
+              "type": "ckan-group",
+              "name": "American Samoa",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:as)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Cook Islands",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:ck)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Federated States of Micronesia",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:fm)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Fiji",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:fj)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "French Polynesia",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:pf)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Guam",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:gu)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Kiribati",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:ki)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Nauru",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:nr)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "New Caledonia",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:nc)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Niue",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:nu)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Northern Mariana Islands",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:mp)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Palau",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:pw)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Papua New Guinea",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:pg)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Pitcairn Islands",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:pn)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Republic of the Marshall Islands",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:mh)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Samoa",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:ws)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Solomon Islands",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:sb)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Tokelau",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:tk)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Tonga",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:to)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Tuvalu",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:tv)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Vanuatu",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:vu)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Wallis and Futuna",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:wf)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "Regions",
+          "members": [
+            {
+              "type": "ckan-group",
+              "name": "Pacific Region",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:regional)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Melanesia",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:melanesia)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Micronesia",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:micronesia)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ckan-group",
+              "name": "Polynesia",
+              "url": "https://pacificdata.org/data",
+              "filterQuery": [
+                {
+                  "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))+(member_countries:polynesia)"
+                }
+              ],
+              "groupBy": "none",
+              "useCombinationNameWhereMultipleResources": true,
+              "supportedResourceFormats": [
+                {
+                  "id": "ArcGIS FeatureServer",
+                  "formatRegex": "^tile service$"
+                },
+                {
+                  "id": "WMS",
+                  "definition": {
+                    "type": "wms",
+                    "parameters": {
+                      "tiled": true
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "ckan-group",
+          "name": "Organisations",
+          "url": "https://pacificdata.org/data",
+          "filterQuery": [
+            {
+              "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))"
+            }
+          ],
+          "groupBy": "organization",
+          "useCombinationNameWhereMultipleResources": true,
+          "supportedResourceFormats": [
+            {
+              "id": "ArcGIS FeatureServer",
+              "formatRegex": "^tile service$"
+            },
+            {
+              "id": "WMS",
+              "definition": {
+                "type": "wms",
+                "parameters": {
+                  "tiled": true
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "ckan-group",
+          "name": "Groups",
+          "url": "https://pacificdata.org/data",
+          "filterQuery": [
+            {
+              "fq": "+(res_format:(geojson OR GeoJSON OR CSV-GEO-PACIFIC OR csv-geo-pacific OR kml OR KML OR kmz OR KMZ OR wms OR WMS OR \"Esri REST\" OR \"tile service\"))"
+            }
+          ],
+          "groupBy": "group",
+          "useCombinationNameWhereMultipleResources": true,
+          "supportedResourceFormats": [
+            {
+              "id": "ArcGIS FeatureServer",
+              "formatRegex": "^tile service$"
+            },
+            {
+              "id": "WMS",
+              "definition": {
+                "type": "wms",
+                "parameters": {
+                  "tiled": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "esri-featureServer",
+      "name": "Corona Virus - Cases",
+      "description": "<p>Current situation for the Novel Coronavirus Cases starting from Wuhan, China.</p> <p>Data and web service provided by the Johns Hopkins University Center for Systems Science and Engineering. Click <a href='https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6'>here</a> for the official Johns Hopkins CSSE dashboard.</p>",
+      "url": "https://services1.arcgis.com/0MSEUqKaxRlEPj5g/ArcGIS/rest/services/ncov_cases/FeatureServer/1",
+      "useStyleInformationFromService": true
+    }
+  ],
+  "corsDomains": [
+    "pacificdata.org",
+    "arcgis.com"
+  ],
+  "homeCamera": {
+    "west": 130,
+    "south": -27,
+    "east": 220,
+    "north": 10
+  },
+  "baseMaps": {
+    "enabledBaseMaps": [
+      "basemap-bing-aerial",
+      "basemap-bing-aerial-with-labels",
+      "basemap-bing-roads",
+      "basemap-natural-earth-II",
+      "basemap-positron",
+      "basemap-darkmatter",
+      "basemap-GEBCO-bathymetry"
+    ],
+    "items": [
+      {
+        "item": {
+          "id": "basemap-GEBCO-bathymetry",
+          "type": "wms",
+          "name": "GEBCO Bathymetry",
+          "url": "https://www.gebco.net/data_and_products/gebco_web_services/2019/mapserv",
+          "layers": "GEBCO_2019_Grid",
+          "opacity": 1.0
+        },
+        "image": "images/gebco.png"
+      }
+    ]
+  }
+}
