@@ -12,6 +12,8 @@ https://pacificmap.test.saas.terria.io/
 
 ## Production
 
+**Not enabled yet**
+
 https://map.pacificdata.org/
 
 - `prod-catalog.json`
