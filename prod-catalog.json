@@ -781,7 +781,7 @@
       ],
       "type": "terria-reference",
       "isGroup": true,
-      "url": "https://terria-catalogs-public.storage.googleapis.com/pacificmap/test-sdmx.json",
+      "url": "https://terria-catalogs-public.storage.googleapis.com/pacificmap/prod-sdmx.json",
       "name": "Pacific Data Hub .Stat",
       "shareKeys": [
         "//Pacific Data Hub .Stat"
