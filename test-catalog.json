@@ -775,6 +775,19 @@
       ]
     },
     {
+      "id": "pacific-data-hub-sdmx",
+      "path": [
+        "pacific-data-hub-sdmx"
+      ],
+      "type": "terria-reference",
+      "isGroup": true,
+      "url": "https://terria-catalogs-public.storage.googleapis.com/pacificmap/test-sdmx.json",
+      "name": "Pacific Data Hub .Stat",
+      "shareKeys": [
+        "//Pacific Data Hub .Stat"
+      ]
+    },
+    {
       "type": "esri-featureServer",
       "name": "Corona Virus - Cases",
       "description": "<p>Current situation for the Novel Coronavirus Cases starting from Wuhan, China.</p> <p>Data and web service provided by the Johns Hopkins University Center for Systems Science and Engineering. Click <a href='https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6'>here</a> for the official Johns Hopkins CSSE dashboard.</p>",
