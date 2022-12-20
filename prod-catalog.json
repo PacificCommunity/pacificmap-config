@@ -825,7 +825,7 @@
           "layers": "GEBCO_2019_Grid",
           "opacity": 1.0
         },
-        "image": "images/gebco.png"
+        "image": "https://terria-catalogs-public.storage.googleapis.com/pacificmap/images/gebco.png"
       }
     ]
   }
