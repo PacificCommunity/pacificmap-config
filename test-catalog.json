@@ -776,16 +776,12 @@
     },
     {
       "id": "pacific-data-hub-sdmx",
-      "path": [
-        "pacific-data-hub-sdmx"
-      ],
+      "path": ["pacific-data-hub-sdmx"],
       "type": "terria-reference",
       "isGroup": true,
       "url": "https://terria-catalogs-public.storage.googleapis.com/pacificmap/test-sdmx.json",
       "name": "Pacific Data Hub .Stat",
-      "shareKeys": [
-        "//Pacific Data Hub .Stat"
-      ]
+      "shareKeys": ["//Pacific Data Hub .Stat"]
     },
     {
       "type": "esri-featureServer",
@@ -795,10 +791,7 @@
       "useStyleInformationFromService": true
     }
   ],
-  "corsDomains": [
-    "pacificdata.org",
-    "arcgis.com"
-  ],
+  "corsDomains": ["pacificdata.org", "arcgis.com"],
   "homeCamera": {
     "west": 130,
     "south": -27,
@@ -825,7 +818,7 @@
           "layers": "GEBCO_2019_Grid",
           "opacity": 1.0
         },
-        "image": "images/gebco.png"
+        "image": "https://terria-catalogs-public.storage.googleapis.com/pacificmap/images/gebco.png"
       }
     ]
   }
